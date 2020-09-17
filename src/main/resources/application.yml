@@ -1,0 +1,9 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: K8s-DEMO
+management:
+  endpoint:
+    health:
+      enabled: true 
